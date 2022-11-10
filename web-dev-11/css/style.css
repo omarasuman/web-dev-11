@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 100vh;
+    width: 100%;
+    background: #014751;
+    position: relative;
+}
+
+nav {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo a {
+    color: white;
+    font-size: 28px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 20px;
+}
+
+.menu ul li a {
+    color: #7698a5;
+    font-size: 15px;
+}
+
+.menu ul li a:hover {
+    color: white;
+    transition: 0.4s;
+}
+
+.btn a {
+    background: transparent;
+    padding: 12px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #7698a5;
+    color: #7698a5;
+    border-radius: 10px;
+}
+
+.btn a:hover {
+    color: white;
+    border: 2px solid white;
+    transition: 0.4s;
+}
+
+.main {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.main h1 {
+    color: white;
+    font-size: 55px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.main p {
+    color: #7698a5;
+    word-spacing: 2px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.btntwo {
+    border: 2px solid #f80068;
+    padding: 12px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #f80068;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.btntwo:hover {
+    background: transparent;
+    border: 2px solid white;
+    transition: 0.4s;
+}
+
+.social {
+    width: 50px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+}
+
+.social span {
+    display: block;
+    margin: 20px;
+    text-align: center;
+}
+
+.social span i {
+    color: white;
+    font-size: 18px;
+}
